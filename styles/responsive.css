@@ -36,5 +36,9 @@
       .banner-btn{
         margin-bottom: 20px;
       }
+      /* grid-container section */
+      .grid-container{
+        grid-template-columns: 1fr;
+      }
 
 }

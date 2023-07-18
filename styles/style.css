@@ -103,3 +103,40 @@ nav{
     width: 60%;
     margin: 0 auto 40px;
   }
+  /* products section styles */
+  .grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    
+    max-height: 1400px;
+    margin: 50px auto 0;
+    min-height: 400px;
+    gap: 15px;
+  }
+  .single-product{
+    
+    padding: 10px;
+    background-color: rgba(112, 128, 144, 0.253);
+    box-shadow: 2px 2px 4px black;
+    border-radius: 10px;
+  }
+  .single-product img{
+    width: 70%;
+    display:block;
+    margin: 0 auto;
+  }
+  .product-icon-name-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .product-icon{
+    font-size: 1.325rem;
+  }
+  .product-icon-name-container span>.product-icon{
+    padding: 10px;
+    background-color: #9376e0;
+    border-radius: 50%;
+    margin-left: 5px;
+    color: white;
+  }
